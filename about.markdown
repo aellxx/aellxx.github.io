@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Hello stranger come and see
 permalink: /about/
 ---
 
-Hello Stranger 🙂
+Hello Stranger :)
 
 I might be just another random dev that you come across on the Internet, but if you found this, then let me introduce myself: 
 
@@ -23,6 +23,5 @@ Expect a mix of:
 
 Thanks for stopping by — and feel free to reach out on [LinkedIn](https://www.linkedin.com/in/aellee/) if you want to chat or geek out about anything I write here.
 
-Let’s learn, build, and backprop our brains together. 🙂
 
 [^1]: pronounced eye-Yelle
