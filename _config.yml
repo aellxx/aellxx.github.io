@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Self-Supervised
+title: aellxx.dev
 email: bluebayband@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal notes and neural thoughts on my journey learning AI/ML + more — backpropagating insights as I go.
