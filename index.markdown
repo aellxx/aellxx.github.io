@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Welcome to Self-Supervised
-
 ## 💻 general swe stuff
 <ul>
   {% for post in site.swe %}
