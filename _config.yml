@@ -33,6 +33,12 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+# Blog collections
+collections:
+  swe:
+    output: true
+    permalink: /swe/:name/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
