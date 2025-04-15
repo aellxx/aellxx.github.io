@@ -1,6 +1,8 @@
 ---
 title: "Relearning REST APIs"
 layout: post 
+date: 2025-04-14
+last_modified_at: 2025-04-15
 ---
 
 # Intro
@@ -11,23 +13,21 @@ Well... The short answer is **no**.
 
 Why? 
 
-First of all, to be completely honest, I don't have anything I *recently* learned about AI/ML that I can write about. 
+First of all, to be completely honest, I don't have anything I *recently* learned about AI/ML that I can write about. Plus I already had some things written archived in my Obsidian vault and Notion pages.
 
-Plus I already have some things written that I have archived in my Obsidian and Notion. 
+So I thought, "Why not utilize the ones I have already?"
 
-So why not utilize the ones I have already? 
+My first post will be on REST APIs, and yes I know it's super basic. You might ask, "You're a software engineer and you just recently learned about REST APIs?"
 
-My first post will be on REST APIs, and yes it's basic. You might ask, "You're a software engineer and you just recently learned about REST APIs?"
+Well I did learn it in school... 2.5 years ago in a Software Engineering class. But the thing is, I forgot. It was only until last week when I soft-started a new project at work when I realized this. I was asking my (awesome) manager about what I should do to prepare myself for the project implementation, and I had a bunch of architecture proposals that included a bunch of APIs, one of them being RESTful APIs. 
 
-Well I did learn it in school... 2.5 years ago in a Software Engineering class. But the thing is, I forgot. It was only until last week until I soft-started a new project at work, when I was asking my (awesome) manager about what I should do to prepare myself for the project implementation. At that point, I had a bunch of architecture proposals that included a bunch of APIs, one of them being RESTful APIs. 
-
-*"Do you know about REST APIs?"*
+My manager asked me: *"Do you know about REST APIs?"*
 
 Errrrr.... No...?
 
 So there I was, reading blog posts and conversing with my friend Claude -- and here is what I wrote up.
 
-Hope it helps. 
+Hope this helps. 
 
 # Table of Contents
 - [RESTful APIs](#restful-apis)
