@@ -177,6 +177,10 @@ The server must authenticate the client request before it can process and send a
 
 - metadata about the response
 
+...And that was the end of the notes I took. This was written a week ago, so much of the knowledge feels pretty new to me. However, I can already see myself coming back to this post a few weeks or months layer, giving this post the "why did I write it like that?" eye. Nonetheless, I want to keep things light with the blog, so I can be as consistent with this as possible. 
+
+That's it for this post! Thanks for reading, and please don't hesitate to contact me with any questions, comments, or feedback. 
+
 # Sources
 Here are the sources I used to write this up: 
 - [What is a RESTful API?](https://aws.amazon.com/what-is/restful-api/)
