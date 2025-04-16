@@ -38,6 +38,12 @@ collections:
   swe:
     output: true
     permalink: /swe/:name/
+  aws:
+    output: true
+    permalink: /aws/:name/
+  dea-c01:
+    output: true
+    permalink: /aws/dea-c01/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
