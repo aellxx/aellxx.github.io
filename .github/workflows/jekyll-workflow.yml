@@ -1,0 +1,43 @@
+name: Build and deploy Jekyll site
+
+on:
+  push:
+    branches: [ main ]
+  # You can also add other triggers like pull_request if needed
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      
+      # custom step before build
+      - name: Custom Pre-build Step
+        run: |
+          echo "Running custom pre-build process"
+          # Add your custom commands here
+          # For example: npm install (if using JavaScript tools)
+          
+      # Build the Jekyll site
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        
+      # Another custom step after build
+      - name: Custom Post-build Step
+        run: |
+          echo "Running custom post-build process"
+          # For example: optimize images, run tests, minify CSS/JS
+          
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
