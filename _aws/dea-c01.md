@@ -13,6 +13,9 @@ As I study and prepare myself for the exam, I'll periodically update this page w
 
 Enough said, here's the list that is subject to update (hopefully several times a week):
 - [The Data Engineer's Workflow & AWS Services](./the-data-engineers-workflow-and-aws-services)
+- [Big Data and 5Vs - Part 1](./big-data-and-5vs-pt-1)
+
+---
 
 [^1]: [Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/), [AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/), [Solutions Architect - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/), [Machine Learning Engineer - Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
