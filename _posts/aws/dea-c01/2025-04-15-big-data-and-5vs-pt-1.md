@@ -2,7 +2,7 @@
 title: "Big Data & 5Vs - Part 1"
 layout: post 
 date: 2025-04-15
-categories: [aws, dea-c01]
+categories: [AWS, DEA-C01]
 ---
 
 # Intro
@@ -141,11 +141,6 @@ Amazon DynamoDB is a fully-managed NoSQL database service that delivers fast, pr
 - Multiple Data Sources - The service integrates with streaming data from various AWS services including Amazon S3 buckets, Amazon Kinesis Data Streams, and DynamoDB Streams, accommodating different data origin points and formats.
 - Managed Complexity - By eliminating the need to manage, monitor, and maintain infrastructure or develop in-depth expertise in operating OpenSearch clusters, the service removes technical barriers to handling data variety.
 
-# 3. Velocity
-
-# 4. Veracity
-
-# 5. Value
 
 ---
 

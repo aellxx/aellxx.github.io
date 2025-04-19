@@ -5,12 +5,7 @@ title: ""
 
 # Welcome to my brain space 🧠
 
-## General Tech Stuff 💻
-<ul>
-  <li><a href="/general-tech/">General</a></li>
-</ul>
-
-## AWS ☁️
-<ul class="subcategories">
-  <li><a href="/aws/dea-c01/">DEA-C01</a></li>
-</ul>
+## Categories
+- [General Tech Stuff 💻](/general-tech/)
+- [All Things AWS ☁️](/aws/)
+    - [AWS Certification: Data Engineer Associate](/aws/dea-c01/)

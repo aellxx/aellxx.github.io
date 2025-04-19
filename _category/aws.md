@@ -1,7 +1,7 @@
 ---
 layout: category
 title: AWS Stuff
-category: aws
+category: AWS
 permalink: /aws/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: category
 title: General Tech Stuff
-category: general-tech
+category: General Tech
 permalink: /general-tech/
 ---
