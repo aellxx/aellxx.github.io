@@ -3,19 +3,14 @@ layout: home
 title: ""
 ---
 
-# Welcome to my brain space
+# Welcome to my brain space 🧠
 
-## 💻 General Tech Stuff
+## General Tech Stuff 💻
 <ul>
-  {% for post in site.swe %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+  <li><a href="/general-tech/">General</a></li>
 </ul>
 
-## 📊 AWS Stuff
-<ul>
-  {% for post in site.aws %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+## AWS ☁️
+<ul class="subcategories">
+  <li><a href="/aws/dea-c01/">DEA-C01</a></li>
 </ul>
-

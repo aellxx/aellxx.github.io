@@ -33,17 +33,27 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-# Blog collections
+# Collection for categories
 collections:
-  swe:
+  category:
     output: true
-    permalink: /swe/:name/
-  aws:
-    output: true
-    permalink: /aws/:name/
-  dea-c01:
-    output: true
-    permalink: /aws/dea-c01/:name/
+
+# Include the layouts directory
+includes_dir: _includes
+
+# Include additional directories if needed
+include:
+  - _layouts
+  - _pages
+
+# Giscus Comments Configuration
+giscus:
+  data-repo: "aellxx/aellxx.github.io"
+  data-repo-id: "R_kgDOOZDNQg"
+  data-category: "Blog Comments" 
+  data-category-id: "DIC_kwDOOZDNQs4CpIdh"
+  data-theme: "light"
+  enabled: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

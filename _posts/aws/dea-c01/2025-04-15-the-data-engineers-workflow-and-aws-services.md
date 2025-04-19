@@ -2,6 +2,7 @@
 title: "The Data Engineer's Workflow & AWS Services"
 layout: post 
 date: 2025-04-15
+categories: [aws, dea-c01]
 ---
 
 # The Data Engineer

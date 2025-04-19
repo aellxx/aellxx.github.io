@@ -2,6 +2,7 @@
 title: "Big Data & 5Vs - Part 1"
 layout: post 
 date: 2025-04-15
+categories: [aws, dea-c01]
 ---
 
 # Intro
@@ -170,3 +171,5 @@ Amazon DynamoDB is a fully-managed NoSQL database service that delivers fast, pr
 [^5]: **Massively Parallel Processing** is a computing architecture that handles massive data volumes by splitting tasks across multiple compute nodes to process data chunks simultaneously. This process dramatically accelerates large-scale analytics.
 
 [^6]: A **data lake** is a storage system that holds massive amounts of raw, unprocessed data in its original format. I like to think of it as a “data dump,” where you can dump your data without having to worry about structuring it or processing it so it adheres to a particular schema. 
+
+
