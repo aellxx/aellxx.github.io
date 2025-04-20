@@ -15,20 +15,22 @@ layout: default
   <!-- If category is the child of its parent, display posts in parent's category -->
   {% if page.parent %}
     <h2>Posts</h2>
-    <ul>
-      {% for post in site.categories[page.category] %}
-        {% if post.categories contains page.parent %}
+    {% assign posts = site.categories[page.category] | where: "categories", page.parent %}
+    {% if posts.size > 0 %}
+      <ul>
+        {% for post in posts %}
           <li>
-          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+            <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
           </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  <!-- Category has no parents -->
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No posts yet! Please check back later.</p>
+    {% endif %}
   {% else %}
     {% assign subcategories = site.category | where: "parent", page.category %}
-    <!-- If current category has children, display the subcategories  -->
+    <!-- If current category has children, display the subcategories -->
     {% if subcategories.size > 0 %}
       <h2>Subcategories</h2>
       <ul class="subcategories">
@@ -40,13 +42,17 @@ layout: default
   
     <!-- Display category posts -->
     <h2>Posts</h2>
-    <ul>
-      {% for post in site.categories[page.category] %}
-        <li>
-          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+    {% if site.categories[page.category].size > 0 %}
+      <ul>
+        {% for post in site.categories[page.category] %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No posts yet! Please check back later.</p>
+    {% endif %}
   {% endif %}
 </div>
