@@ -23,7 +23,7 @@ email: bluebayband@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal notes and neural thoughts on my journey learning AI/ML + more — backpropagating insights as I go.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aellxx.dev" 
 linkedin_username: aellee
 github_username:  aellxx
 
@@ -53,3 +53,5 @@ giscus:
   data-theme: "light"
   enabled: true
 
+plugins:
+  - jekyll-feed
