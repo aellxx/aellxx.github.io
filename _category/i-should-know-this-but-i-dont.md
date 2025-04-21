@@ -15,7 +15,7 @@ Studying for AWS certifications meant having to learn about AWS services, and I 
 
 Now there's nothing wrong with how AWS describes their MSK service. The issue was with me having absolutely no idea of what Apache Kafka was, so I did the next reasonable thing: ask [Perplexity](https://www.perplexity.ai/)
 
-![I asked what Apache Kafka is on Perplexity](/assets/things-i-should-know-but-i-dont/perplexity-kafka.png)
+![I asked what Apache Kafka is on Perplexity](/assets/i-should-know-this-but-i-dont/perplexity-kafka.png)
 
 Now I was *really* confused. What even is an "event streaming platform"? What does it mean for that to be "distributed"? What does it mean for systems to "handle" real-time data? Given the timeframe I had to study for my past 4 certs, I brute-force memorized the descriptions, and don't get me wrong, I was able to answer exam questions just fine. 
 
