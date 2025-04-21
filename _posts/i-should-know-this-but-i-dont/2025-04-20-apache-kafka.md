@@ -112,10 +112,10 @@ Now you might ask,
 
 Kafka has three primary features for handling continuous flows of data: 
 1. It enables services to write to (publish) and read from (subscribe to) event streams
-2. Events are stored durably and reliably (across multiple computers) from hours to indefinitely 
+2. Events are stored durably and reliably (across multiple computers) 
 3. Services can process events as they occur, or after they happen
 
-When this event streaming platform is **distributed**, it means that the system runs across multiple computers (servers) rather than just one. With your streams spread across multiple machines, a single server failure doesn't equate to your data being gone -- which is what we call **fault tolerance**. 
+When an event streaming platform is **distributed**, it means that the system runs across multiple computers (servers) rather than just a single server. With your streams spread across multiple machines, a single server failure doesn't equate to your data being gone -- which is what we call **fault tolerance**. 
 
 In addition to fault tolerance, a distributed architecture offers some more benefits: 
 - **Scalability**: You can increase throughput by adding more servers
