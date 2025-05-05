@@ -25,7 +25,7 @@ categories: [I-Should-Know-This-But-I-Don't]
 I was a junior in college when I first heard about Docker.<br>
 I was a senior working on my senior project when I first had to deal with Docker.<br>
 I was 4 months into my professional career when I first had to deploy a containerized application using Docker.<br>
-I am 10 months into my professional career, and I have to deal with Kubernetes.<br>
+I am 10 months into my professional career, and I have to _VERY lightly_ deal with Kubernetes.<br>
 
 So, if someone asks me, "What is a container? What is Docker? What is Kubernetes?" can I answer it?
 
