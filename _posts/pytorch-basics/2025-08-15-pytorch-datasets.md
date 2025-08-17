@@ -1,7 +1,7 @@
 ---
 title: "Datasets and DataLoaders: Part 1"
 layout: post
-date: 2025-08-15"
+date: 2025-08-15
 categories: [PyTorch Basics]
 ---
 
@@ -17,6 +17,17 @@ categories: [PyTorch Basics]
 
 3. Why should you care?
    > By defining a way to access your data and return the size of your data, the `Dataset` object allows you to train a model on any data source (images, CSV files, audio, etc.) just by changing the Dataset implementation.
+
+<br>
+<hr>
+<br>
+
+# Contents
+
+- [Intro](#intro)
+- [`Dataset` Objects](#dataset-objects)
+- [Perhaps a More Practical Use Case](#perhaps-a-more-practical-use-case)
+- [So Why Does it Matter?](#so-why-does-it-matter)
 
 # Intro
 
@@ -113,7 +124,7 @@ So, essentially, a PyTorch `Dataset` is a class that knows **how many data sampl
 
 At the end of the day, it's just another wrapper around your raw data that tells PyTorch "Here's how you should access my data, and how you can figure out its size/shape." Without a dataset, PyTorch wouldn’t know how to get your data or what shape it’s in — it’s the foundation.
 
-# Perhaps a more practical use case of defining a `Dataset` object
+# Perhaps a more practical Use Case
 
 ...would be if you have some unstructured data.
 
@@ -212,10 +223,10 @@ print(f"Length of data at index position 0: {len(cats_and_lions_ds[0])}")
 
 As you can see, the data contains a tensor-ized version of the image (i.e. a numerical representation of the image), and the label. In this case, the blob of numbers you see represent one of the cat pictures I have, and the label `0` stands for the label `cat` (refer back to the class definition).
 
-# So why does this matter?
+# So Why Does it Matter?
 
 Think of creating a `Dataset` object as the data-prep stage. You have some data (e.g. a bunch of image files), and you need to turn it into a format that you can use to train some kind of machine/deep learning model. By defining a way to access your data and return the size of your data, the `Dataset` object allows you to train a model on any data source (images, CSV files, audio, etc.) just by changing the Dataset implementation.
 
-The reason why this class matters might make more sense once we dive into `DataLoaders`, which will be the second part to this series.
+The reason why this class matters might make more sense once we dive into [`DataLoaders`](/pytorch%20basics/2025/08/17/pytorch-dataloaders.html), which will be the second part to this series.
 
 Until then, <br>Ael
