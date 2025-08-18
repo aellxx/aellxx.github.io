@@ -9,13 +9,14 @@ categories: [PyTorch Basics]
 
 1. What is a `DataLoader`?
 
-> A `DataLoader` is a tool that goes through a dataset and gives you (or the model) the batches of the data for training or evaluation.
+   > A `DataLoader` is a tool that goes through a dataset and gives you (or the model) the batches of the data for training or evaluation.
 
 2. What is the purpose of having a `DataLoader`?
 
    > A `DataLoader` simplifies the process of batching, shuffling, and loading data in parallel, letting you focus on building and improving your model.
 
 3. Why do you need one?
+
    > Without a `DataLoader`, you’d have to _manually_ slice your dataset into batches, shuffle it every epoch, and handle data loading. Therefore, a `DataLoader` makes training faster and less prone to errors, especially when working with large datasets.
 
 <br>
@@ -53,6 +54,7 @@ As someone who doesn't like the chain of "Oh to understand A I need to understan
    > The purpose of a `Dataset` object is to define a way of accessessing your data during model training.
 
 3. Why should you care?
+
    > By defining a way to access your data and return the size of your data, the `Dataset` object allows you to train a model on any data source (images, CSV files, audio, etc.) just by changing the Dataset implementation.
 
 Now if you want _examples_ of how the `Dataset` object works, _then_ you should probably

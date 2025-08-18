@@ -16,6 +16,7 @@ categories: [PyTorch Basics]
    > The purpose of a `Dataset` object is to define a way of accessessing your data during model training.
 
 3. Why should you care?
+
    > By defining a way to access your data and return the size of your data, the `Dataset` object allows you to train a model on any data source (images, CSV files, audio, etc.) just by changing the Dataset implementation.
 
 <br>
